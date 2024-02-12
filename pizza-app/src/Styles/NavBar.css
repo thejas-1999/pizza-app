@@ -46,6 +46,7 @@
 
 .navbar #open {
   padding-left: 0px;
+  margin-top: 12px;
 }
 .navbar #open img {
   display: none;
@@ -89,6 +90,7 @@
 
   .navbar .rightSide button {
     display: inherit;
+    margin-top: 15px;
   }
 }
 
