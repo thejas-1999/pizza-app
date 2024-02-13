@@ -1,11 +1,11 @@
-import Pepperoni from "../assets/pepperoni.jpg";
-import Margherita from "../assets/margherita.jpg";
-import PedroTechSpecial from "../assets/pedrotechspecial.jpg";
-import Vegan from "../assets/vegan.jpg";
-import Pineapple from "../assets/pineapple.jpg";
-import Expensive from "../assets/expensive.jpg";
+import Pepperoni from "../Asssets/pepperoni.jpg";
+import Margherita from "../Asssets/margherita.jpg";
+import TKSpecal from "../Asssets/pedrotechspecial.jpg";
+import Vegan from "../Asssets/vegan.jpg";
+import Pineapple from "../Asssets/pineapple.jpg";
+import Expensive from "../Asssets/expensive.jpg";
 
-export const MenuList = [
+const MenuList = [
   {
     name: "Pepperoni Pizza",
     image: Pepperoni,
@@ -17,8 +17,8 @@ export const MenuList = [
     price: 11.99,
   },
   {
-    name: "TK Special Pizza",
-    image: PedroTechSpecial,
+    name: "TKSpecal Pizza",
+    image: TKSpecal,
     price: 256.53,
   },
   {
@@ -37,3 +37,5 @@ export const MenuList = [
     price: 1997.99,
   },
 ];
+
+export default MenuList;
