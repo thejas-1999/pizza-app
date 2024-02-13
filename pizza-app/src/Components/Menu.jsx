@@ -1,5 +1,6 @@
 import MenuList from "../Components/MenuList";
-import Menuitem from "../Components/MenuItem";
+import MenuItem from "../Components/MenuItem";
+
 import "../Styles/Menu.css";
 
 const Menu = () => {
@@ -10,7 +11,7 @@ const Menu = () => {
       </div>
       <div className="menuList">
         {MenuList.map((menuItem, key) => (
-          <Menuitem
+          <MenuItem
             key={key}
             image={menuItem.image}
             name={menuItem.name}

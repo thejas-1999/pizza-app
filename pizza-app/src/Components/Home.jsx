@@ -5,8 +5,8 @@ const Home = () => {
   return (
     <div className="home" style={{ background: `url(${BannerImage})` }}>
       <div className="headerContainer">
-        <h1>TK </h1>
-        <h2>lets go</h2>
+        <h1>TK'S PIZZA HUT</h1>
+        <h2>YOUR PERFECT PIZZA'S</h2>
         <Link to="/menu">
           <button>ORDER NOW</button>
         </Link>

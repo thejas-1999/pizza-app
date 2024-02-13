@@ -1,6 +1,6 @@
 .navbar {
   width: 100%;
-  height: 100%;
+  height: 100px;
   background-color: #121619;
   display: flex;
   flex-direction: row;
@@ -16,7 +16,6 @@
 
 .navbar .leftSide img {
   width: 70px;
-  border-radius: 10px;
 }
 
 .navbar .rightSide {
@@ -46,7 +45,6 @@
 
 .navbar #open {
   padding-left: 0px;
-  margin-top: 12px;
 }
 .navbar #open img {
   display: none;
@@ -90,7 +88,6 @@
 
   .navbar .rightSide button {
     display: inherit;
-    margin-top: 15px;
   }
 }
 

@@ -1,4 +1,4 @@
-const Menuitem = ({ image, name, price }) => {
+const MenuItem = ({ image, name, price }) => {
   return (
     <div className="menuItem">
       <div
@@ -11,8 +11,8 @@ const Menuitem = ({ image, name, price }) => {
         }}
       ></div>
       <h1>{name}</h1>
-      <p>{price}₹</p>
+      <p>Price:${price}</p>
     </div>
   );
 };
-export default Menuitem;
+export default MenuItem;

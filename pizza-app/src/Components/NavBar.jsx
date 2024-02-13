@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "../Styles/NavBar.css";
-import Logo from "../Asssets/gtec.png";
+import Logo from "../Asssets/pizzaLogo.png";
 import { Link } from "react-router-dom";
 import ReorderIcon from "@mui/icons-material/Reorder";
 

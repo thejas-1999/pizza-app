@@ -13,7 +13,7 @@ const Footer = () => {
         <Facebook />
         <X />
       </div>
-      <p className="footerP"> &copy; 2021 TK</p>
+      <p className="footerP"> &copy; 2024 TK</p>
     </div>
   );
 };
